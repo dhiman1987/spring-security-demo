@@ -18,7 +18,7 @@ public record UserInfo(String id, String username, String name, String role) imp
 
     @Override
     public String getPassword() {
-        return "{noop}pass";
+        return null;
     }
 
     @Override
